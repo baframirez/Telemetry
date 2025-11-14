@@ -1,0 +1,22 @@
+can-streaming-pipeline/
+├── README.md                          # Documentación principal
+├── docs/
+│   ├── architecture.md                # Arquitectura detallada
+│   ├── setup-guide.md                 # Guía de instalación
+│   └── monitoring.md                  # Dashboards y métricas
+├── diagrams/
+│   ├── architecture-diagram.png       # Diagrama de arquitectura
+│   ├── data-flow.png                  # Flujo de datos
+│   └── grafana-screenshots/           # Capturas de Grafana
+├── src/
+│   ├── can_reader/                    # Scripts de lectura CAN
+│   ├── transformers/                  # Transformaciones DBC
+│   └── config/
+│       └── dbc_files/                 # Archivos DBC (sanitizados)
+├── docker/
+│   └── docker-compose.yml             # Stack completo reproducible
+├── tests/
+│   └── integration_tests/
+├── .env.example                       # Variables de entorno
+└── performance/
+    └── benchmarks.md                  # Métricas de rendimiento
